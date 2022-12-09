@@ -1,6 +1,6 @@
 @font-face {
     font-family: 'Cormorant';
-    src: url(‘/fonts/Cormorant-SemiBold.ttf’) 
+    src: url(‘/fonts/Cormorant-SemiBold.ttf’)
 }
 
 body {
@@ -62,6 +62,9 @@ article {
     margin-bottom: 40px;
 }
 
+.card {
+    width: 18rem;
+}
 .card-text {
     font-size: 23px;
 }
@@ -86,3 +89,42 @@ tbody {
 #imgCourrier {
     width: 35%;
 }
+
+@media screen and (max-width: 768px) {
+    #castleTitle {
+        margin: 10px 0 10px 0;
+    }
+
+    #castleTitle2 {
+        margin: 10px 0 10px 0;
+    }
+
+    .infoMap {
+        flex-direction: column;
+        align-items: center;
+        margin: 0;
+    }
+
+    article {
+        width: 85%;
+    }
+
+    .familyHead {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .card {
+        width: 22rem;
+        margin: 15px 0 15px 0;
+    }
+    #courrierForm {
+        margin-top: 20%;
+    }
+    #imgCourrier {
+        width: 55%;
+    }
+
+}
+
+@media screen and (min-width: 768px) and (max-width: 959px) {}
