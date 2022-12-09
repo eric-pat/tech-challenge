@@ -1,6 +1,6 @@
 @font-face {
-	font-family: 'Cormorant';
-	src: url(‘/fonts/Cormorant-SemiBold.ttf’) format(‘truetype’)
+    font-family: 'Cormorant';
+    src: url(‘/fonts/Cormorant-SemiBold.ttf’) 
 }
 
 body {
@@ -18,11 +18,47 @@ body {
 
 #castleTitle {
     text-align: center;
-    margin:40px 0 40px 0;
-
+    margin: 40px 0 40px 0;
 }
 
 #castleImg {
     width: 100%;
     height: auto;
+}
+
+#castleTitle2 {
+    margin: 40px 0 40px 40px;
+}
+
+.infoMap {
+    display: flex;
+    justify-content: space-around;
+    margin: 40px 10px 40px 10px;
+}
+
+article {
+    width: 55%;
+}
+
+#btn-back-to-top {
+    position: fixed;
+    bottom: 80px;
+    right: 40px;
+    display: none;
+    background-color: rgb(42, 42, 114);
+}
+
+#btn-back-to-top:hover {
+    background-color: gray;
+}
+
+#footerColor {
+    background-color: rgb(42, 42, 114);
+    color: white;
+}
+
+#footerText {
+    display: flex;
+    justify-content: center;
+    padding-top: 20px;
 }

@@ -11,72 +11,86 @@
 <script src="/style.e308ff8e.js"></script></head>
 
 <body>
-  <!--Content goes here-->
-
-  <!-- Navigation Section-->
-  <nav class="navbar navbar-expand-lg navbar-dark" id="navbarColor">
-    <div class="container-fluid">
-      <a class="navbar-brand" href="#">
-        <img src="/crown.fa5bf9e3.png" alt="logo" style="width:60px; height:60px;">
-      </a>
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarNav">
-        <ul class="navbar-nav">
-          <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="#">Accueil</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">Famille Royale</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">Actifs Royaux</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">Nous Contacter</a>
-          </li>
-        </ul>
+  <!--Header -->
+  <header>
+    <!-- Navigation Section-->
+    <nav class="navbar navbar-expand-lg navbar-dark" id="navbarColor">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">
+          <img src="/crown.fa5bf9e3.png" alt="logo" style="width:60px; height:60px;">
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Accueil</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Famille Royale</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Actifs Royaux</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Nous Contacter</a>
+            </li>
+          </ul>
+        </div>
       </div>
+    </nav>
+    <!-- End Navigation Section-->
+  </header>
+  <!-- End Header -->
+  <!-- Main -->
+  <main>
+    <!-- Hero Section -->
+    <section>
+      <h1 id="castleTitle">Bienvenue au royaume royal de Colchide</h1>
+      <img src="/castle.f9b90e94.jpg" alt="photo du chateau" id="castleImg" height="1200">
+    </section>
+    <div class="infoMap">
+      <article>
+        <h2 id="castleTitle2">A propos du Royaume:</h2>
+        <p>Colchis était un pays très riche. Ils possédaient une toison d'or. C'était un Bélier qui avait une laine
+          dorée
+          et
+          sur cette Toison, il était écrit comment obtenir l'or à travers le sable de la rivière. Le royaume de Colchis
+          (Egrisi par les sources géorgiennes) était un grand royaume de la Géorgie occidentale. Dans la mythologie
+          grecque
+          antique, Colchis est mentionné comme le pays d'origine d'Aeëtes et de Médée. Médée était la fille du roi
+          Aeëtes
+          de
+          Colchis, Géorgie. C'était une guérisseuse douée.</p>
+        <p>Sa géographie est principalement attribuée à ce qui est maintenant la partie occidentale de Géorgie. Colchide
+          était mythologie grecque à la maison Aeëtes et Médée et la répartition des Argonauts, Il est aussi la patrie
+          possible Amazones. Cette ancienne zone est représentée à peu près par les provinces géorgiennes actuelles,
+          Abkhazie, Mingrelia, Svanétie, Racha, Imereti, guria, Agiariada ces districts Russes de Sochi et Tuapse et
+          turc de Rize, Trabzon et Artvin (Lazistan, Royaume des Kartvels).[13] Les crocus se sont installés dans le
+          Caucase dans les médias Âge de bronze.[14]</p>
+      </article>
+      <aside>
+        <p>
+          <img src="/colchide.104afa27.png" alt="carte de la colchide">
+        </p>
+      </aside>
     </div>
-  </nav>
-
-  <!-- Hero Section -->
-  <section>
-    <h1 id="castleTitle">
-      Bienvenue au royaume royal de Colchide
-    </h1>
-    <img src="/castle.f9b90e94.jpg" alt="photo du chateau" id="castleImg" width="auto" height="1200">
-  </section>
-  <section>
-    
-  </section>
-
-
-  <!-- Add this to a seperate page, e.g. royal-family.html
-			Images and text aligned next to each other -->
-  <h2>
-    The Royal Family
-  </h2>
-
-  <!-- Add this to a seperate page, e.g. assets.html
-			Kingdom's Royal Assets or Sporting Results table -->
-  <h2>
-    The Kingdom's Royal Assets / Javelin Event Results
-  </h2>
-  Asset... | Number... | Worth... Item 1...| 4... ] 6,000 Points... |
-  Player... | Family Name... 94... | Sir John. | John of Elderworth
-
-  <!-- Add this to a seperate page, e.g. contact.html -->
-  <!-- Contact the Royal Kingdom -->
-  <p>
-    Fill in the form below to contact the Royal Kingdom
-  </p>
-  Name... Email... Message... Submit...
-
-  <footer>
-
+    <!-- Back to top button -->
+    <button type="button" class="btn  btn-floating btn-lg" id="btn-back-to-top">
+      <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-arrow-up" viewBox="0 0 16 16" color="white">
+        <path fill-rule="evenodd" d="M8 15a.5.5 0 0 0 .5-.5V2.707l3.146 3.147a.5.5 0 0 0 .708-.708l-4-4a.5.5 0 0 0-.708 0l-4 4a.5.5 0 1 0 .708.708L7.5 2.707V14.5a.5.5 0 0 0 .5.5z"></path>
+      </svg>
+    </button>
+  </main>
+  <!-- End Main -->
+  <!-- Footer -->
+  <footer id="footerColor">
+    <div id="footerText">
+      <p>developed and maintained by Eric</p>
+    </div>
   </footer>
+  <!-- Footer -->
 
   <!-- Connect the Javascript file -->
   <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
