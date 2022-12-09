@@ -73,3 +73,16 @@ thead {
 tbody {
     text-align: center;
 }
+
+.contactForm {
+    margin-top: 70px;
+}
+
+#courrierForm {
+    justify-content: center;
+    display: flex;
+}
+
+#imgCourrier {
+    width: 35%;
+}

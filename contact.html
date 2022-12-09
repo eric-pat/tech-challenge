@@ -47,11 +47,38 @@
     <!-- End Header -->
     <!-- Main -->
     <main class="container">
-        <!-- Royal family Section -->
-        <section>
-           
+        <!-- Contact Section -->
+        <section class="contactForm">
+            <h1 id="castleTitle">Laissez-nous un message !!!</h1>
+            <form>
+                <div class="row">
+                    <div class="col-6">
+                        <div class="mb-3">
+                            <label for="nom" class="form-label">Nom</label>
+                            <input id="nom" class="form-control" type="text" name="" placeholder="Entrer votre nom">
+                        </div>
+                    </div>
+                    <div class="col-6">
+                        <div class="mb-3">
+                            <label for="inputEmail" class="form-label">Adresse email</label>
+                            <input type="email" class="form-control" id="inputEmail" aria-describedby="emailHelp">
+                            <div id="emailHelp" class="form-text">Votre e-mail ne sera pas diffusé.</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="mb-3">
+                    <label for="commentaire">Commentaire</label>
+                    <textarea class="form-control" placeholder="Laissez-nous un commentaire !" id="commentaire"
+                        style="height: 100px"></textarea>
+                </div>
+                <!-- pop up sent message -->
+                <button type="submit" class="btn btn-primary" onclick="myFunction()">Envoyer</button>
+            </form>
+            <div id="courrierForm">
+                <img src="/assets/courrier.jpg" alt="images courrier" id="imgCourrier">
+            </div>
         </section>
-        <!-- End Royal family Section -->
+        <!-- End Contact Section -->
 
     </main>
     <!-- End Main -->
