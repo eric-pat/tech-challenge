@@ -1,2 +1,30 @@
+@font-face {
+	font-family: 'Cormorant';
+	src: url(/Cormorant-SemiBold.2c521e75.ttf’) format(‘truetype’)
+}
+
+body {
+    font-family: 'Cormorant', serif;
+}
+
+#navbarColor {
+    background-color: rgb(42, 42, 114);
+    font-size: 23px;
+}
+
+#navbarNav {
+    justify-content: flex-end;
+}
+
+#castleTitle {
+    text-align: center;
+    margin:40px 0 40px 0;
+
+}
+
+#castleImg {
+    width: 100%;
+    height: auto;
+}
 
 /*# sourceMappingURL=/style.e308ff8e.css.map */
