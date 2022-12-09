@@ -16,6 +16,10 @@ body {
     justify-content: flex-end;
 }
 
+#logo {
+    margin-left: 20px;
+}
+
 #castleTitle {
     text-align: center;
     margin: 40px 0 40px 0;
@@ -34,22 +38,11 @@ body {
     display: flex;
     justify-content: space-around;
     margin: 40px 10px 40px 10px;
+    align-items: flex-end;
 }
 
 article {
     width: 55%;
-}
-
-#btn-back-to-top {
-    position: fixed;
-    bottom: 80px;
-    right: 40px;
-    display: none;
-    background-color: rgb(42, 42, 114);
-}
-
-#btn-back-to-top:hover {
-    background-color: gray;
 }
 
 #footerColor {
@@ -63,11 +56,6 @@ article {
     padding-top: 20px;
 }
 
-#familyTitle {
-    margin: 40px 0 40px 40px;
-    text-align: center;
-}
-
 .familyHead {
     display: flex;
     justify-content: space-evenly;
@@ -76,4 +64,12 @@ article {
 
 .card-text {
     font-size: 23px;
+}
+
+thead {
+    text-align: center;
+}
+
+tbody {
+    text-align: center;
 }
